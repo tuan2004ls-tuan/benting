@@ -870,7 +870,7 @@ Phân tích bằng tiếng Việt, chi tiết, có căn cứ thực tế. Nếu 
       ...chatHistory.map(h => ({ role: h.role, parts: [{ text: h.text }] })),
       { role: 'user', parts }
     ],
-    tools: [{ googleSearch: {} }],
+    //tools: [{ googleSearch: {} }],
     generationConfig: { maxOutputTokens: 4096, temperature: 0.7 }
   };
 
